@@ -25,6 +25,14 @@
             }
           }
         },
+        "minimax/minimax-m2.1": {
+          "options": {
+            "temperature": 0.5,
+            "provider": {
+              "only": ["atlas-cloud/fp8"]
+            }
+          }
+        },
         "z-ai/glm-4.7": {
           "options": {
             "temperature": 0.35,
@@ -38,6 +46,14 @@
             "temperature": 0.45,
             "reasoning": {
               "effort": "high"
+            }
+          }
+        },
+        "google/gemini-3-flash-preview": {
+          "options": {
+            "temperature": 0.5,
+            "reasoning": {
+              "effort": "medium"
             }
           }
         }
